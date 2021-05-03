@@ -1,9 +1,8 @@
-from sqlalchemy import Column, String, Date
+from sqlalchemy import Column, Date, JSON
 from database.base import Base
 
 
 class Curr(Base):
     __tablename__ = "currency"
-    ticker = Column(String)
-    date = Column(Date)
-    rates = Column(String, primary_key=True)
+    date = Column(Date, primary_key=True)
+    rates = Column(JSON)
