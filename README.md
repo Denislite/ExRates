@@ -32,7 +32,7 @@ Get the historical rates against a different rate base.
     GET /historical?start_at=2018-01-01&end_at=2018-09-01&base=USD
 ```
 # Stack
-ExRates is based on FastAPI framework. SQLite is used as a database.
+ExRates is based on <a href="https://fastapi.tiangolo.com" class="external-link" target="_blank">**FastAPI**</a> framework. SQLite is used as a database.
 #### Libraries used:
 - Requests
 - JSON
