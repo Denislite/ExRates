@@ -3,7 +3,7 @@
 Service for current and historical foreign exchange rates
 # Installation
 ```
-git clone https://github.com/Denislite/ExRates
+git clone https://github.com/Denislite/ExRates.git
 cd ExRates
 virtualenv env
 source env/bin/activate
